@@ -8,6 +8,15 @@ designed to be safe, straightforward, and quick to set up, so anyone can start t
 
 For complete documentation, see Tycho docs [here](https://docs.propellerheads.xyz/tycho/for-solvers/execution).
 
+## Installation
+
+Add `tycho-execution` to your `Cargo.toml`:
+
+```toml
+[dependencies]
+tycho-execution = { git = "https://github.com/vfat-io/tycho-execution", branch = "main" }
+```
+
 ## Examples
 
 To get started on encoding, have a look at our [Encoding example](examples/encoding-example/README.md).
